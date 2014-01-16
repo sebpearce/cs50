@@ -15,5 +15,8 @@ This is in two parts. The first is a program that resizes a 24-bit BMP (`resize.
 
 The second program, `recover.c`, reads a forensic image (I didn't include the 15mb image here, but you can get it at the [course website]("https://cs50.harvard.edu")) and recovers a bunch of JPEGs from it by looking for the 4 bytes that demarcate a JPEG and routing them to a file.
 
+## Sort
+The "sort" folder contains `sortnsearch.h` which is a collection of searching and sorting algorithms mentioned in one of the lectures. This wasn't a requirement but I wanted to get a handle on the workings of insertion sort, merge sort, etc.
+
 ## Do it
 https://cs50.harvard.edu
